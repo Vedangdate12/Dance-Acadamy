@@ -53,7 +53,7 @@ html{
 .home-section{
     min-height: 100vh;
     padding: 250px 0 0 0 ;
-    background-image: url(/img/h-bg2.jpg);
+    background-image: url(h-bg2.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
