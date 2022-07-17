@@ -1,0 +1,41 @@
+@media(max-width:999px){
+    .about-section .about-img{
+        flex: 0 0 100%;
+        width: 100%;
+    } 
+    .about-section .about-content{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 50px;
+    }
+}
+@media(max-width:500px){
+    .home-section{
+        padding-top: 170px;
+    }
+    .instructor-section .instructor-area .inst-content{
+        display: inline-block;
+        text-align: center;
+    }
+    .instructor-section .instructor-area .inst-content .inst-img{
+        flex: 0 0 100%;
+        display: 100%;
+    }
+    .instructor-section .instructor-area .inst-content .inst-info{
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .home-section .home-content a{
+     background-color: #ffffff;
+    }
+}
+
+@media(max-width:400px){
+    .about-section .about-img img{
+        max-width: 250px;
+    }   
+    .event-section .event-area .event-content .event-img img{
+        height: 100px;
+        width: 100px;
+    } 
+}
